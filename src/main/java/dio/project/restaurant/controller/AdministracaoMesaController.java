@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/admin-mesas")
-public class AdiministracaoMesaController {
+public class AdministracaoMesaController {
 
     @Autowired
     private MesaService mesaService;

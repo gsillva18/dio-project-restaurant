@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/admin-forma-pagamento")
-public class AdiministracaoFormaPagamentoController {
+public class AdministracaoFormaPagamentoController {
 
     @Autowired
     private FormaPagamentoService formaPagamentoService;
